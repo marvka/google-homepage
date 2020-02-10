@@ -4,3 +4,33 @@
     margin-right: auto;
     text-align: center;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    font-family: arial, sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+.float_left {
+    float: left;
+}
+
+.float_right {
+    float: right;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
