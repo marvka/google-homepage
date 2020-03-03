@@ -1,8 +1,19 @@
+body {
+    margin-top: 9px;
+}
+
 .horizontal_center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: arial,sans-serif;
+    font-size: 13px;
 }
 
 ul {
@@ -12,8 +23,10 @@ ul {
 }
 
 li {
+    margin-top: 11px;
+    margin-left: 17px;
     float: left;
-    font-family: arial, sans-serif;
+    opacity: 0.85;
 }
 
 .clear {
@@ -33,4 +46,36 @@ li {
     bottom: 0;
     right: 0;
     width: 100%;
+}
+
+#signin {
+    padding: 7px 12px 6px 12px;
+    color: #ffffff;
+    background-color: #4583ee;
+    border: 1px solid #4583ee;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-left: 1px;
+}
+
+#button-grid {
+    position: relative;
+    top: 2px;
+    margin-left: 3px;
+    margin-right: 4px;
+    opacity: 0.6;
+}
+
+.navbar-left li{
+    margin-right: 1px;
+}
+
+.navbar-right {
+    position: relative;
+    top: 1px;
+    margin-right: 22px;
+}
+
+.navbar-right li {
+    margin-left: 17px;
 }
