@@ -92,6 +92,10 @@ footer .float_right {
     opacity: 0.6;
 }
 
+#searchbar {
+    padding-top: 29px;
+}
+
 #search-prompt {
     border-style: none;
     position: relative;
