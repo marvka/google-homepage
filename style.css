@@ -1,3 +1,7 @@
+html {
+    position: relative;
+}
+
 body {
     margin-top: 9px;
 }
@@ -141,4 +145,8 @@ footer .float_right {
     width: 24px;
     background-size: 24px;
     float: right;
+}
+
+#google-logo {
+    padding-top: 158px;
 }
