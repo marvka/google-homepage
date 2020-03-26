@@ -150,3 +150,21 @@ footer .float_right {
 #google-logo {
     padding-top: 158px;
 }
+
+#button {
+    padding-top: 20px;
+    padding-left: 3px;
+}
+
+#button input {
+    background-color: #f4f4f4;
+    border: 1px solid #f4f4f4;
+    border-radius: 4px;
+    color: rgba(34, 2, 0, 0.7);
+    text-shadow: none;
+    line-height: 34px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    padding: 0 16px;
+    margin: 11px 4px;
+}
